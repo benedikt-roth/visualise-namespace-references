@@ -19,6 +19,6 @@ npm run start -- --include <glob pattern>
 
 * How to identify namespace TypeReferences from object accessors?
   * Idea: Exclude imports within file ✅
-* How can global declarations be ignored?
+* How can global declarations (e.g. 3rd party libs and browser APIs) be ignored?
   * Specify a global ignore list ⚠️
 
