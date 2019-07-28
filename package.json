@@ -1,0 +1,27 @@
+{
+  "name": "visualise-namespace-references",
+  "version": "1.0.0",
+  "description": "## Goal",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node --inspect-brk src/cli.js",
+    "start": "node src/cli.js"
+  },
+  "engines": {
+    "node": "10.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossgardt/visualise-namespace-references.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossgardt/visualise-namespace-references/issues"
+  },
+  "homepage": "https://github.com/rossgardt/visualise-namespace-references#readme",
+  "devDependencies": {
+    "glob": "^7.1.4",
+    "typescript": "^3.5.3"
+  }
+}
